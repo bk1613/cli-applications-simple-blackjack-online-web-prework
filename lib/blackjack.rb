@@ -45,10 +45,10 @@ def hit?(number)
   prompt_user 
   total = 0
   user_input = get_user_input
-  if user_input == "s"
+  if user_input == "h"
     !deal_card
     total = number
-  elsif user_input == "h"
+  elsif user_input == "s"
     value = deal_card
     total = number + value
   else
