@@ -46,9 +46,9 @@ def hit?(number)
   total = 0
   user_input = get_user_input
   if user_input == "h"
-    number += 
+    number += deal_card
   elsif user_input == "s"
-    
+    number
     
   else
     invalid_command
